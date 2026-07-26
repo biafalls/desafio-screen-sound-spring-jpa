@@ -1,13 +1,8 @@
 # 🎵 Screen Sound Spring JPA
 
-Aplicação desenvolvida como desafio prático da formação **Java e Spring Framework G8 - Oracle Next Education (ONE)**, proposta pela Alura após a conclusão do curso **Java: Persistência de Dados e Consultas com Spring Data JPA**.
+Aplicação desenvolvida como desafio prático do curso **Java: Persistência de Dados e Consultas com Spring Data JPA**.
 
 O projeto consiste em um sistema de gerenciamento musical executado via **Command Line Interface (CLI)**, permitindo cadastrar artistas, álbuns e músicas, realizar consultas utilizando Spring Data JPA e persistir os dados em um banco PostgreSQL.
-
-> 📚 **Este repositório tem foco na aplicação prática dos conceitos.**
-> Para consultar a documentação completa sobre Spring Data JPA, Hibernate, ORM, Repositories, Relacionamentos, JPQL, SQL Nativo e demais conceitos abordados durante o desenvolvimento deste projeto, acesse o repositório de estudos:
->
-> **➡️ https://github.com/biafalls/exercicios-spring-data-jpa**
 
 ---
 
@@ -45,14 +40,12 @@ O projeto foi desenvolvido utilizando três entidades principais.
 
 ```text
 Artista
-   │
-   ├──────────────┐
-   │              │
-   ▼              │
- Album            │
-   │              │
-   ▼              │
- Música ◄─────────┘
+   │              
+   ▼              
+ Album            
+   │              
+   ▼              
+ Música 
 ```
 
 ### Relacionamentos
@@ -70,10 +63,9 @@ Artista
 src
 └── main
     ├── java
-    │   ├── model
+    │   ├── models
     │   ├── repository
     │   ├── service
-    │   ├── dto
     │   ├── principal
     │   └── ScreenSoundApplication
     │
@@ -139,17 +131,7 @@ Durante o desenvolvimento deste desafio foram utilizados:
 - Consumo de API REST
 - Desserialização de JSON
 - Persistência das respostas da API
-
----
-
-# 📸 Demonstração
-
-> Adicione aqui capturas de tela do menu principal e das principais funcionalidades da aplicação.
-
-| Menu Principal | Consulta |
-|----------------|----------|
-| *(imagem)* | *(imagem)* |
-
+  
 ---
 
 # 📖 Material de Apoio
@@ -179,9 +161,4 @@ Lá você encontrará uma documentação completa sobre:
 - Integração com APIs
 
 ---
-
-# 👩‍💻 Autora
-
-Desenvolvido por **Beatriz Lima Evangelista** durante a formação **Java e Spring Framework G8 - Oracle Next Education (ONE) + Alura**.
-
 [![GitHub](https://img.shields.io/badge/GitHub-biafalls-181717?style=for-the-badge&logo=github)](https://github.com/biafalls)
